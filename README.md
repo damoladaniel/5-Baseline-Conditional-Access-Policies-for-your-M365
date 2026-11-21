@@ -20,6 +20,8 @@ Conditional Access is one of the highest-value security controls in a Microsoft 
 I configured an Authentication Strength 
 Authentication Methods -> Authentication Strengths -> New Authentication
 
+Name: Modern MFA
+
 Selected:
 ##### Phishing-resistant MFA
 - Windows Hello for Business
