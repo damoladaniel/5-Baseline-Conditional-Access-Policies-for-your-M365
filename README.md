@@ -33,3 +33,5 @@ Selected:
 <br></br>
 
 <img width="1612" height="866" alt="Screenshot 2026-11-21 122707" src="https://github.com/user-attachments/assets/db309a84-93d7-4041-8419-e23ef628cfcb" />
+
+## Condtional Access 1: All Users - All Apps: Require Strong MFA
