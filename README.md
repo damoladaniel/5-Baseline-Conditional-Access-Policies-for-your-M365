@@ -52,7 +52,7 @@ Assignments:
 
 -----------------------------
 
-<img width="1844" height="870" alt="Screenshot 2026-11-23 091021" src="https://github.com/user-attachments/assets/038c1ae7-207a-4ec4-8193-248f538ef631" />![Uploading Screenshot 2026-11-21 123407.png…]()
+<img width="1844" height="870" alt="Screenshot 2026-11-23 091021" src="https://github.com/user-attachments/assets/038c1ae7-207a-4ec4-8193-248f538ef631" />
 
 -----------------------------
 
