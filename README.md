@@ -87,6 +87,46 @@ Assignments:
 
 <img width="689" height="870" alt="Screenshot 2026-11-23 095831" src="https://github.com/user-attachments/assets/4fafe216-60ac-4de8-ab01-79f103ece397" />
 
+<br></br>
+
+## Conditional Access 3:
+
+This policy is aimed at protecting device registration and joining devices to Micorosft Entra. So if someone has a stolen password, they are unable to add any rogue laptops to your Entra ID Tenants. So this policy enforces requirment for MFA whenever a device signs in or joins.
+
+Name: **All Users - Device Registration - Require MFA**
+
+Assignments: 
+- Users: Include All Users, ***(Excluse break glass and admin accounts)***
+- Target Resources -> User actions -> Register or Join devices
+- Grant : Grant Access -> Require Authentication Strength -> Modern MFA (The authentication strength we created at the start)
+- Enable Policy: On
+
+------------
+
+<img width="975" height="369" alt="Screenshot 2026-11-23 102237" src="https://github.com/user-attachments/assets/48f7bdd6-f469-4d47-ba01-2ece66367d10" />
+
+------------
+
+<img width="819" height="729" alt="Screenshot 2026-11-23 102250" src="https://github.com/user-attachments/assets/6b99acd8-29a3-4189-9cdc-2e43b8f30465" />
+
+------------
+
+<img width="903" height="478" alt="Screenshot 2026-11-23 102314" src="https://github.com/user-attachments/assets/76cabde0-0de7-4d6d-bcf6-10db48f65386" />
+
+------------
+
+<img width="1629" height="845" alt="Screenshot 2026-11-23 102348" src="https://github.com/user-attachments/assets/14f7523a-2ce5-468a-9476-332d7310c071" />
+
+------------
+
+<img width="1420" height="893" alt="Screenshot 2026-11-23 102405" src="https://github.com/user-attachments/assets/963bf0fc-dd93-4b3d-8276-4e1afeab63b0" />
+
+
+
+
+
+
+
 
 
 
