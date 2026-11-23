@@ -38,6 +38,7 @@ Selected:
 
 ## Condtional Access 1:
 Name: **All Users - All Apps: Require Strong MFA**
+
 Assignments:
 - Users: Include All Users, ***(Excluse break glass and admin accounts)***
 - Grant: Modern MFA (Previously Created MFA Method)
@@ -57,6 +58,7 @@ Assignments:
 The policy blocks protocols that dont support MFA e.g POP, IMAP. Legacy POP and IMAP protocols traditionally use Basic Authentication (username and password), which cannot prompt for multi-factor authentication (MFA) or enforce modern sign-on policies.
 
 Name: **All Users - Legacy Auth Clients: Block Access**
+
 Assignments: 
 - Users: Include All Users, ***(Excluse break glass and admin accounts)***
 - Condtions -> Client Apps -> Configure (YES) -> Selcet Legacy Authentication Clients (Exchange ActiveSync Cleints & Other Clients)
