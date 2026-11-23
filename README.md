@@ -39,6 +39,23 @@ Selected:
 ## Condtional Access 1:
 Name: All Users - All Apps: Require Strong MFA
 Assignments:
-- Users: Include All Users
+- Users: Include All Users, *(Excluse break glass and admin accounts)*
 - Grant: Modern MFA (Previously Created MFA Method)
+- Enable Policy: On
+------------------------------
+
+<img width="1612" height="866" alt="Screenshot 2026-11-21 122707" src="https://github.com/user-attachments/assets/3b384499-348c-4560-88d0-7b8c745aa753" />
+
+-----------------------------
+
+<img width="1250" height="856" alt="Screenshot 2026-11-21 122821" src="https://github.com/user-attachments/assets/d14601ed-3d7c-40ae-9ddc-bd046110da31" />
+
+-----------------------------
+
+<img width="1844" height="870" alt="Screenshot 2026-11-23 091021" src="https://github.com/user-attachments/assets/038c1ae7-207a-4ec4-8193-248f538ef631" />![Uploading Screenshot 2026-11-21 123407.png…]()
+
+-----------------------------
+
+
+
 
