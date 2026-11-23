@@ -44,10 +44,6 @@ Assignments:
 - Enable Policy: On
 ------------------------------
 
-<img width="1612" height="866" alt="Screenshot 2026-11-21 122707" src="https://github.com/user-attachments/assets/3b384499-348c-4560-88d0-7b8c745aa753" />
-
------------------------------
-
 <img width="1250" height="856" alt="Screenshot 2026-11-21 122821" src="https://github.com/user-attachments/assets/d14601ed-3d7c-40ae-9ddc-bd046110da31" />
 
 -----------------------------
