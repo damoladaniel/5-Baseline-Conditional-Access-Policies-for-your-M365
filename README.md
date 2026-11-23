@@ -37,9 +37,9 @@ Selected:
 <img width="1612" height="866" alt="Screenshot 2026-11-21 122707" src="https://github.com/user-attachments/assets/db309a84-93d7-4041-8419-e23ef628cfcb" />
 
 ## Condtional Access 1:
-Name: All Users - All Apps: Require Strong MFA
+Name: **All Users - All Apps: Require Strong MFA**
 Assignments:
-- Users: Include All Users, *(Excluse break glass and admin accounts)*
+- Users: Include All Users, ***(Excluse break glass and admin accounts)***
 - Grant: Modern MFA (Previously Created MFA Method)
 - Enable Policy: On
 ------------------------------
@@ -51,6 +51,41 @@ Assignments:
 <img width="1844" height="870" alt="Screenshot 2026-11-23 091021" src="https://github.com/user-attachments/assets/038c1ae7-207a-4ec4-8193-248f538ef631" />
 
 -----------------------------
+
+## Conditional Access 2:
+
+The policy blocks protocols that dont support MFA e.g POP, IMAP. Legacy POP and IMAP protocols traditionally use Basic Authentication (username and password), which cannot prompt for multi-factor authentication (MFA) or enforce modern sign-on policies.
+
+Name: **All Users - Legacy Auth Clients: Block Access**
+Assignments: 
+- Users: Include All Users, ***(Excluse break glass and admin accounts)***
+- Condtions -> Client Apps -> Configure (YES) -> Selcet Legacy Authentication Clients (Exchange ActiveSync Cleints & Other Clients)
+- Grant : Block Access
+- Enable Policy: On
+
+<img width="1140" height="403" alt="Screenshot 2026-11-23 095509" src="https://github.com/user-attachments/assets/efa29d2b-240d-47b2-8615-588bf6f2fc58" />
+
+------------
+
+<img width="1844" height="782" alt="Screenshot 2026-11-23 095558" src="https://github.com/user-attachments/assets/19a354be-f31d-4ed9-a151-27f20e8d071b" />
+
+------------
+
+<img width="850" height="738" alt="Screenshot 2026-11-23 095609" src="https://github.com/user-attachments/assets/c8f8596b-6102-49f9-b7d3-912d8764edfe" />
+
+------------
+
+<img width="1871" height="865" alt="Screenshot 2026-11-23 095730" src="https://github.com/user-attachments/assets/9298d90d-4051-4456-b5e6-f678208dc6e7" />
+
+------------
+
+<img width="1900" height="890" alt="Screenshot 2026-11-23 095805" src="https://github.com/user-attachments/assets/457a225e-3c6e-435c-ad05-e7cb6eb8c6bd" />
+
+------------
+
+<img width="689" height="870" alt="Screenshot 2026-11-23 095831" src="https://github.com/user-attachments/assets/4fafe216-60ac-4de8-ab01-79f103ece397" />
+
+
 
 
 
