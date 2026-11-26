@@ -170,13 +170,13 @@ Entra sees a huge volume of sign-ins across every tenant, and Microsoft adds sig
 
 ### What triggers a high-risk sign-in
 
--Anonymous IP address (Tor, anonymising VPNs)
--Atypical or impossible travel
--Unfamiliar sign-in properties
--Malware-linked IP address
--Password spray
--Anomalous token or suspected token theft (often seen with adversary-in-the-middle phishing)
--Threat intelligence matches from Microsoft
+- Anonymous IP address (Tor, anonymising VPNs)
+- Atypical or impossible travel
+- Unfamiliar sign-in properties
+- Malware-linked IP address
+- Password spray
+- Anomalous token or suspected token theft (often seen with adversary-in-the-middle phishing)
+- Threat intelligence matches from Microsoft
 
 
 
