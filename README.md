@@ -178,6 +178,40 @@ Entra sees a huge volume of sign-ins across every tenant, and Microsoft adds sig
 - Anomalous token or suspected token theft (often seen with adversary-in-the-middle phishing)
 - Threat intelligence matches from Microsoft
 
+Name: **All Users - All Apps, High Sign-in Risks - Block Access**
+
+Assignments: 
+- Users: Include All Users, ***(Excluse break glass and admin accounts)***
+- Target Resources -> All Resources
+- Conditions: Sign-in Risk -> Configure (**YES**) -> Select the sign-in risk level this policy will apply -> **High**
+- Grant : Block Access
+- Enable Policy: On
+- Create
+
+------------
+<br></br>
+
+<img width="2326" height="851" alt="Screenshot 2026-11-26 124257" src="https://github.com/user-attachments/assets/52225b3a-2bb3-4b28-a569-de5ca63c4703" />
+
+------------
+
+<img width="1281" height="408" alt="Screenshot 2026-11-26 124308" src="https://github.com/user-attachments/assets/b7612743-cd11-415b-9e16-5e5287b178de" />
+
+------------
+
+<img width="2283" height="549" alt="Screenshot 2026-11-26 124338" src="https://github.com/user-attachments/assets/2d9e2d06-79bd-4c1b-991b-3369140ada69" />
+
+------------
+
+<img width="2269" height="653" alt="Screenshot 2026-11-26 124707" src="https://github.com/user-attachments/assets/e74b7f18-13da-4533-8a38-b668760a4283" />
+
+------------
+
+<img width="2260" height="859" alt="Screenshot 2026-11-26 125300" src="https://github.com/user-attachments/assets/5501f943-704b-4ab9-9540-e4402d9a6b26" />
+
+
+
+
 
 
 
