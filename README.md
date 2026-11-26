@@ -161,6 +161,22 @@ Assignments:
 
 <img width="2525" height="861" alt="Screenshot 2026-11-26 112458" src="https://github.com/user-attachments/assets/3e1424c2-225c-4e63-bbaa-35bbacdcf4ab" />
 
+<br></br>
+
+## Conditional Access 5:
+
+Entra ID Protection is the risk-detection engine behind risk-based Conditional Access. It scores each sign-in and user as low, medium or high risk, and you write Conditional Access policies that respond to those scores.
+Entra sees a huge volume of sign-ins across every tenant, and Microsoft adds signals from Defender, Windows and its security research teams. That scale is the main advantage. If a botnet is password-spraying thousands of tenants, one tenant on its own might not notice, but Microsoft can see the pattern across all of them. Entra ID Protection combines three things. First, global threat intelligence from Microsoft's scale of signals, like leaked credentials and known anonymous or malicious IPs. Second, per-user behavioural baselines, so it knows your normal locations, devices and patterns and flags deviations like impossible travel. Third, machine learning that detects attack patterns like password spray or token replay. Those detections are scored as low, medium or high, and Conditional Access acts on the score.
+
+### What triggers a high-risk sign-in
+
+-Anonymous IP address (Tor, anonymising VPNs)
+-Atypical or impossible travel
+-Unfamiliar sign-in properties
+-Malware-linked IP address
+-Password spray
+-Anomalous token or suspected token theft (often seen with adversary-in-the-middle phishing)
+-Threat intelligence matches from Microsoft
 
 
 
