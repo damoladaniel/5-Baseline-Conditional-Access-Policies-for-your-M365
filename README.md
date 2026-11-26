@@ -121,6 +121,47 @@ Assignments:
 
 <img width="1420" height="893" alt="Screenshot 2026-11-23 102405" src="https://github.com/user-attachments/assets/963bf0fc-dd93-4b3d-8276-4e1afeab63b0" />
 
+<br></br>
+
+## Conditional Access 4:
+
+Device code flow is one of the more abused authentication paths right now, and Conditional Access has a specific control for it.
+Device Code Flow is an OAuth flow designed for devices with no browser or keyboard (smart TVs, printers, CLI tools). The device shows a short code, and the user enters it at microsoft.com/devicelogin on another device and signs in. The device then gets the tokens.
+In a device code phishing attack, the attacker starts the flow themselves and gets a legitimate code. They then trick the victim, usually by email, Teams message or a fake meeting invite, into entering that code on the real Microsoft login page. The victim signs in and passes MFA, and the attacker's session receives the access and refresh tokens.
+
+Entra has an Authentication flows condition in Conditional Access. You can target Device code flow and block it.
+
+Name: **All Users - Device Code Flow - Block Access**
+
+Assignments: 
+- Users: Include All Users, ***(Excluse break glass and admin accounts)***
+- Target Resources -> All Resources
+- Conditions: Authentication Flows -> Configure (**YES**) -> Transfer Methods (**Select Device Code Flows**) -> Save
+- Grant : Block Access
+- Enable Policy: On
+- Create
+
+------------
+
+<img width="1468" height="753" alt="Screenshot 2026-11-26 112322" src="https://github.com/user-attachments/assets/83d35633-1ae4-408c-b3f6-cb43256ecda7" />
+
+------------
+
+<img width="1101" height="439" alt="Screenshot 2026-11-26 112339" src="https://github.com/user-attachments/assets/5dbf5c32-0943-4314-b6a8-d7ce84f2f7a8" />
+
+------------
+
+<img width="2540" height="851" alt="Screenshot 2026-11-26 112415" src="https://github.com/user-attachments/assets/da706015-edc8-463c-bb06-36655b2d75a6" />
+
+------------
+
+<img width="2544" height="862" alt="Screenshot 2026-11-26 112435" src="https://github.com/user-attachments/assets/c1f87153-dc78-477c-9147-68b207e79795" />
+
+------------
+
+<img width="2525" height="861" alt="Screenshot 2026-11-26 112458" src="https://github.com/user-attachments/assets/3e1424c2-225c-4e63-bbaa-35bbacdcf4ab" />
+
+
 
 
 
